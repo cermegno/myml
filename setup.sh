@@ -7,8 +7,11 @@ mkdir ../ml-env/data/
 cp data/sales.csv  ../ml-env/data/
 echo -e ""
 echo -e "===  File copy complete  ==="
-echo -e "=== Start Jupyter server ==="
 echo -e ""
+echo -e "=== Activate virtual env ==="
+echo -e "source ml-env/bin/activate"
+echo -e ""
+echo -e "=== Start Jupyter server ==="
 echo -e "jupyter notebook --allow-root --ip=0.0.0.0 --port=80"
 echo -e ""
 
