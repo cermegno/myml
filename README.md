@@ -2,7 +2,13 @@
 Simple Jupyter notebook to demonstrate a Data Science workflow
 
 ## Instructions
-### Clone the files in /root and run the setup.sh from the myml directory
+### Prepare VM with ServiceNow
+- Request a VM
+- Request an AI/ML application
+- Request an scale-out NAS storage
+
+### Download and setup the Data Science app
+Log in to the VM
 ```
 git clone https://github.com/cermegno/myml
 cd myml
@@ -26,3 +32,4 @@ Copy the URL with the token from the server terminal, ex:
 [I 13:18:33.106 NotebookApp] http://1.1.1.1:80/?token=012ced01779a33642f8b9b198de2acdb45ae983
 [I 13:18:33.106 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
+Run the Jupyter notebook
